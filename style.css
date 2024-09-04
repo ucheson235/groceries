@@ -23,11 +23,14 @@ nav{
 }
 
 .nav-div{
-  display: flex;
-  
-  
- 
-    
+  display: flex; 
+}
+
+.burger {
+  font-size: 5rem;
+  cursor: pointer;
+  color: #fff;
+  display: none;
 }
 
 .nav-div input{
@@ -92,13 +95,13 @@ ul {
 
 a{
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
 }
 
 li{
     list-style: none;
-    font-size: 5rem;
+    font-size: 2.5rem;
     color: #fff;
     font-weight: 500;
 }
@@ -288,7 +291,10 @@ footer{
   }
 
   nav{
-    padding: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
   }
 
  .nav-div{
@@ -305,6 +311,25 @@ footer{
   
 }
 
+.burger{
+  display: block;
+}
+
+#navLinks {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(1, 70, 70);
+  top: 60px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.div-home.active {
+  display: flex;
+}
 .hero img{
    width: 300px;
    
@@ -352,6 +377,9 @@ footer{
   padding: 20px;
   font-size: 3rem;
 }
+
+
+
 
 
  

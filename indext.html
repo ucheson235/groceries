@@ -13,16 +13,19 @@
 <body>
     <header>
         <nav>
+            <div>
+                <img src="./Twins-image1.jpg" alt="" width="200">
+            </div>
+           
             <div class="nav-div">
-                <div>
-                    <img src="./Twins-image1.jpg" alt="" width="200">
-                </div>
+
                <div class="div-input"> <input  type="text"  placeholder="Search food items" ></div>
                 <div class="div-search"><button>SEARCH</button></div>
 
             </div>
+            
             <div class="div-home">
-                <ul>
+                <ul id="navLinks">
                    <li class="home">
                     <a href="">Home</a>
                     <div class="dropdown-home">
@@ -59,6 +62,8 @@
                 </ul>
 
             </div>
+            <div class="burger" id="toggleBtn" onclick="toggleNav()">&#9776;</div>
+            
         </nav>
     </header>
     <section1>
@@ -180,6 +185,8 @@
         </div>
     </footer>
 
+   
     
+    <script src="./app.js"></script>
 </body>
 </html>
